@@ -1,0 +1,40 @@
+#parthead{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#partners{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 66px;
+    height: auto;
+    padding-bottom: 3%;
+    padding: 2rem;
+    z-index: 400;
+}
+
+#apple{
+    padding-left: 2rem;
+}
+
+#skype{
+    padding-right: 2rem;
+}
+
+@media (min-width:417px) and (max-width:548px){
+   
+#section3 img{
+    padding: 0.5rem ;
+}   
+    
+}
+
+
+.short{
+    width: 200px;
+}

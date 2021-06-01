@@ -1,0 +1,18 @@
+h3{
+    text-align: center;
+    color: red;
+    font-size: 3rem;
+}
+
+h3 span{
+    color:  #5383d3;
+    text-align: center;
+
+}
+
+img{
+    display: block;
+    margin: auto;
+    height: 140px;
+}
+

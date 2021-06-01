@@ -1,0 +1,35 @@
+#servhead{
+    width: fit-content;
+    margin:0px auto;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #032c55;
+    font-size: 200%;
+    padding-top: 64px;
+}
+
+.serv {
+    display: block;
+    margin:50px auto;
+    width: 80vw;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(189, 183, 107, 0.637);
+}
+
+.serv h3 {
+    text-align: center;
+}
+
+.serv p {
+    text-align: justify;
+    margin: 20px 5px;
+    line-height:40px;
+}
+
+.serv i{
+    position: relative;
+    top: 45%;
+    left: 48%;
+}

@@ -1,0 +1,59 @@
+#section4{
+    background: url('../Images/contact.jpg') no-repeat center center/cover;   
+}
+
+#section4 h1{
+    width: fit-content;
+    margin:20px auto;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #34495e;
+    font-size: 200%;
+    padding-top: 64px;
+
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+textarea::placeholder{
+    font-size: 20px;
+    text-align: center;
+}
+textarea{
+    width: 16rem;
+    margin: 1rem;
+    margin-left: 1.4rem;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+#section4 form{
+    width: fit-content;
+    margin: auto;
+}
+
+#section4 form input{
+    width: 16rem;
+    margin: 1rem;
+    padding: 0.3rem;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#message{
+    height: 200px;
+    text-align: start;
+}
+
+#submit{
+    width: 16rem;
+}
+
+#submit:hover{
+    color: #021c2e;
+    background-color: #84c2ff;
+    cursor: pointer;
+}

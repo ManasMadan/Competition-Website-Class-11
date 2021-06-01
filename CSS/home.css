@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#possible {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #222;
+    background-color: #000;
+    border-radius: 30px;
+    padding: 3px 20px;
+    width: fit-content;
+    margin: auto;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+#possible span {
+    transition: 0.5s;
+}
+
+#possible:hover span:nth-child(1) {
+    margin-right: 10px;
+}
+
+#possible:hover span:nth-child(1):after {
+    content: "'";
+}
+#possible:hover span:nth-child(3) {
+    margin-left: 40px;
+}
+
+#possible:hover span {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    #possible {
+        display: none;
+    }
+}
+
+#myhome {
+    background: url("../Images/home2.png") no-repeat center center/cover;
+    height: 90vh;
+    /* width: 90vw; */
+}
+
+@media (max-width: 930px) {
+    #myhome {
+        background: url("../Images/home.png") no-repeat center center/cover;
+    }
+    #workwithus {
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 624px) {
+    #myhome {
+        background: url("../Images/home1.png") no-repeat center center/cover;
+    }
+}
+
+#myhome #workwithus {
+    width: 12%;
+    height: 10%;
+    font-size: 1rem;
+    background-color: #34495e;
+    color: #fff;
+    border: 3px solid black;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 15%;
+    right: 15%;
+}
+
+#myhome #workwithus:hover {
+    cursor: pointer;
+    color: #3498db;
+    transition: 0.4s;
+}
+#section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section2 div {
+    display: flex;
+    width: 90vw;
+}
+@media (max-width: 850px) {
+    #section2 div {
+        flex-wrap: wrap;
+    }
+}
+
+#section2 h1 {
+    width: fit-content;
+    margin: 20px auto;
+    font-weight: bold;
+    text-decoration: underline;
+    color: crimson;
+    font-size: 200%;
+    padding-top: 64px;
+}
+
+#section2 div span {
+    display: block;
+    margin: 20px 10px;
+    width: 50vw;
+    border: 2px solid black;
+    padding: 40px 20px;
+    border-radius: 30px;
+    background-color: #ffedbc;
+}
+
+#section2 div span h3 {
+    text-align: center;
+}
+
+#section2 div span i {
+    position: relative;
+    left: 38%;
+    margin-bottom: 10px;
+}
+#section2 div span p {
+    text-align: justify;
+    line-height: 35px;
+}
+
+#ourvision {
+    margin-right: 0em;
+}
